@@ -1,21 +1,40 @@
-✈️ Airline Reservation System
+# ✈️ Airline Reservation System
 
-A full-stack web application for booking and managing airline tickets. Built with React.js for the frontend, Spring Boot for the backend, and MySQL as the database.
+A full-stack web application for booking and managing airline tickets. Built with **React.js** (frontend), **Spring Boot** (backend), and **MySQL** (database).  
 
-🔹 Features
+It allows users to search flights, book tickets, and manage reservations, while admins can manage flights and bookings through a secure dashboard.
 
-User authentication (signup/login)
+---
 
-Search available flights and book tickets
+## 🔹 Features
 
-Manage reservations (view, update, cancel)
+### User Features
+- User registration and login  
+- Search for available flights  
+- Book, view, and cancel reservations  
+- Responsive UI for desktop and mobile  
 
-Admin panel for flight and schedule management
+### Admin Features
+- Add, update, and delete flights  
+- View and manage all bookings  
+- Secure access with authentication
 
-🔹 Technologies
+---
 
-Frontend: React.js
+## 🔹 Tech Stack
 
-Backend: Spring Boot
+| Layer     | Technology     |
+|----------|----------------|
+| Frontend | React.js       |
+| Backend  | Spring Boot    |
+| Database | MySQL          |
+| API      | RESTful        |
 
-Database: MySQL
+---
+
+## 🔹 Project Structure
+
+Airline_Reservation_System/
+├── Backend-airline/ # Spring Boot backend
+├── Frontend-airline/ # React.js frontend
+└── README.md
