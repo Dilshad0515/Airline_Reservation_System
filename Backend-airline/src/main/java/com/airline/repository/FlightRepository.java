@@ -1,0 +1,9 @@
+package com.airline.repository;
+
+import com.airline.model.Flight;
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+
+public interface FlightRepository extends JpaRepository<Flight, Long> {
+    List<Flight> findByOriginAndDestinationAndDepartureDate(String origin, String destination, String departureDate);
+}
